@@ -4,18 +4,29 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "update-schema": "babel-node ./scripts/updateSchema.js",
     "test": "jest"
   },
   "dependencies": {
-    "react": "16.0.0-alpha.6",
+    "graphql": "^0.9.3",
+    "graphql-relay": "^0.5.1",
+    "koa": "^2.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-graphql": "^0.6.2",
+    "koa-mount": "^3.0.0",
+    "react": "^16.0.0-alpha.6",
     "react-native": "0.43.3",
-    "react-native-router-flux": "^3.38.0"
+    "react-native-router-flux": "^3.38.0",
+    "react-relay": "^0.10.0"
   },
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "babel-jest": "19.0.0",
     "babel-preset-react-native": "1.9.1",
+    "babel-relay-plugin": "^0.11.0",
     "jest": "19.0.2",
-    "react-test-renderer": "16.0.0-alpha.6"
+    "react-test-renderer": "16.0.0-alpha.6",
+    "sync-request": "^4.0.3"
   },
   "jest": {
     "preset": "react-native"
