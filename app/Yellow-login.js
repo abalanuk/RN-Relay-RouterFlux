@@ -11,7 +11,7 @@ const LoginScreen = () => {
     <View style={styles.container}>
       <Text 
         style={styles.login}
-        onPress={() => Actions.welcome()}
+        onPress={() => Actions.welcome({username: 'Andrew'})}
       >
         Please enter your credentials
       </Text>
