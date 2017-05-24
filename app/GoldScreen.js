@@ -16,8 +16,8 @@ const GoldScreen = () => {
         Gold Screen
       </Text>
       <Text
-      style={styles.welcome}
-      onPress={Actions.modal}
+        style={styles.welcome}
+        onPress={Actions.modal}
       >
         Modal Screen
       </Text>

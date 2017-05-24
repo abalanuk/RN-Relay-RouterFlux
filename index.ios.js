@@ -80,21 +80,5 @@ const styles = StyleSheet.create({
     color: '#333333',
   },
 })
-//class BaristaBasic extends Component {
-//  render() {
-//    return (
-//      <View style={styles.container}>
-//        <View style={styles.container}>
-//          <Text style={styles.welcome}>
-//            Welcome to React Native!
-//          </Text>
-//        </View>
-//        <View style={styles.container}>
-//          <RootComponent />
-//        </View>
-//      </View>
-//    )
-//  }
-//}
 
 AppRegistry.registerComponent('Barista', () => Barista)

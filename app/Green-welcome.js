@@ -7,14 +7,15 @@ import {
 } from 'react-native'
 import { Actions } from 'react-native-router-flux'
 
-// {
-//   "data": {
-//     "me": {
-//       "firstName": "Samer",
-//       "lastName": "Buna",
-//       "email": "samer@agilelabs.com"
-//     }
-//   }
+/* {
+   "data": {
+     "me": {
+       "firstName": "Samer",
+       "lastName": "Buna",
+       "email": "samer@agilelabs.com"
+     }
+   }
+*/
 class WelcomeScreen extends React.PureComponent {
   render() {
     const user = this.props.user
@@ -46,7 +47,7 @@ const styles = StyleSheet.create({
 export default Relay.createContainer(WelcomeScreen, {
   // Specify the initial value of the `$key` variable.
   initialVariables: {
-    value: "4242"
+    value: "1111"
   },
   // For each of the props that depend on server data, we define a corresponding
   // key in `fragments`. Here, the component expects server data to populate the
